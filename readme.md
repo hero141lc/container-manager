@@ -40,6 +40,13 @@ container-manager.sh
 
 `./container-manager.sh`
 
+### 添加到bin直接运行
+```
+cp "$(pwd)/container-manager.sh" /usr/local/bin/container-manager
+chmod +x /usr/local/bin/container-manager
+container-manager
+```
+
 ## 🧠 示例界面
 
 ```
